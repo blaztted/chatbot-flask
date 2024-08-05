@@ -2,14 +2,7 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
       "responses": [
         "Hey :-)",
         "Hello, thanks for visiting",
@@ -38,10 +31,7 @@
         "What kinds of items are there?",
         "What do you sell?"
       ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
+      "responses": ["We sell coffee and tea", "We have coffee and tea"]
     },
     {
       "tag": "payments",
@@ -63,21 +53,53 @@
         "How long does shipping take?",
         "When do I get my delivery?"
       ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
+      "responses": ["Delivery takes 2-4 days", "Shipping takes 2-4 days"]
     },
     {
       "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
+      "patterns": ["Tell me a joke!", "Tell me something funny!", "Do you know a joke?"],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "course_info",
+      "patterns": [
+        "Tell me about the courses you offer",
+        "What courses are available?",
+        "Can you give me details about a course?"
+      ],
+      "responses": [
+        "We offer a range of courses in various subjects. What specific course are you interested in?",
+        "You can find details about all our courses on the website. Would you like a direct link?",
+        "We have courses in programming, data science, design, and more. What interests you?"
+      ]
+    },
+    {
+      "tag": "enrollment",
+      "patterns": [
+        "How do I enroll in a course?",
+        "What is the enrollment process?",
+        "Can I sign up for a course now?"
+      ],
+      "responses": [
+        "You can enroll in a course through our website. I can provide a link if you need it.",
+        "To enroll, visit the course page and follow the registration instructions.",
+        "Feel free to sign up directly on our site. Is there a specific course you are interested in?"
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "I'm having trouble accessing a course",
+        "I can't log in to my account",
+        "The website isn't working properly"
+      ],
+      "responses": [
+        "Please try clearing your browser cache and cookies. If the problem persists, contact our support team.",
+        "Can you provide more details about the issue? I'll help you find a solution.",
+        "For technical issues, please reach out to our support team at support@example.com."
       ]
     }
   ]
